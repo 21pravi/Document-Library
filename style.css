@@ -1,0 +1,145 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d1117;
+}
+#library {
+  display: flex;
+  padding-left: 3rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.webpage {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  color: rgba(255, 255, 255, 0.849);
+  border-radius: 20px;
+  padding: -50px;
+  border: rgba(0, 0, 0, 0.192) solid 2px;
+  height: 18em;
+  width: 25rem;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #181f29;
+}
+.title {
+  width: 280px;
+  height: fit-content;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #e429e494;
+  border: #550d559d solid 2px;
+  border-radius: 15px;
+  background-color: #7413743f;
+  /* border: yellow solid 2px;
+  border-radius: 20px; */
+  text-align: center;
+}
+.author {
+  text-align: center;
+  color: #dfbf3cab;
+  margin-top: -20px;
+}
+.pages {
+  font-size: 40px;
+  color: rgba(218, 217, 217, 0.781);
+  margin: -15px;
+  font-weight: 900;
+  text-align: center;
+}
+.read-status {
+  color: rgb(0, 119, 255);
+  text-align: center;
+  margin-top: 16px;
+}
+.remove-btn {
+  height: 30px;
+  width: 80px;
+  color: red;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border: rgba(255, 0, 0, 0.521) solid 2px;
+  border-radius: 20px;
+  background-color: rgba(255, 0, 0, 0.336);
+}
+
+.toggle-read-btn {
+  height: 30px;
+  width: 120px;
+  color: rgb(0, 102, 255);
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border: rgba(10, 90, 211, 0.808) solid 2px;
+  border-radius: 20px;
+  background-color: rgba(0, 102, 255, 0.247);
+}
+.form-container {
+  width: 300px;
+  margin: 20px;
+  border-radius: 20px;
+  color: #ffe0668f;
+  font-size: large;
+  font-family: "Noto Sans", sans-serif;
+  padding: 40px;
+  padding-left: 20px;
+  border: 2px solid #ffe0662a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 20rem;
+  height: 30px;
+  color: #dfbf3cde;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 20px;
+  background-color: #181f29;
+  border: #212b3a85 2px solid;
+}
+#read {
+  width: 100px;
+}
+#submit {
+  width: 8rem;
+  height: 3rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: large;
+  border-color: #fffffe52;
+  background-color: #dfbe3c;
+  color: #550d55;
+  border-radius: 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+#new-book-btn {
+  display: block;
+  padding: 10px;
+  color: #dfbe3c;
+  background-color: #550d55;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  border: 5px solid #470f474b;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "Playwrite US Trad", cursive;
+  color: rgba(255, 251, 0, 0.904);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}

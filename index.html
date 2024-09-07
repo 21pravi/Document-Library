@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="webpage">
+      <div class="background">
+        <h1>Pravi's Library</h1>
+        <div class="button">
+          <button id="new-book-btn">+ ADD</button>
+        </div>
+        <div class="form-container" style="display: none">
+          <form id="new-book-form">
+            <label for="title">Title </label>
+            <input type="text" id="title" />
+            <br />
+            <br />
+            <label for="author">Author</label>
+            <input type="text" id="author" />
+            <br />
+            <br />
+            <label for="pages">Pages</label>
+            <input type="number" id="pages" />
+            <br />
+            <br />
+            <label for="read">Read</label>
+            <input type="checkbox" id="read" />
+            <br />
+            <br />
+            <input type="submit" id="submit" value="Done" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="library"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
